@@ -1,25 +1,43 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+// import Hook from './hook';
+// import Form from './firstform';
+// import searchfilter from './search';
+import React from 'react';
+import List from './list';
 import './App.css';
+// import React, { useState } from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const items = ["apple", "banana", "orange", "pear", "pineapple"];
+
+const App = () => {
+return (
+<div>
+<List items={items} />
+</div>
+);
+};
+
+
+
+// function App(){
+//   const [count,setCount] = useState(0);
+//   const increaseCount = () => {
+//     setCount(count+1);
+//   }
+//   const decreaseCount = () =>{
+//     setCount(count-1);
+//   }
+//   return(
+//     <>
+//        <div>
+//         <h1>Count: {count}</h1>
+//         <button onClick={increaseCount}>Increament</button>
+//         <button onClick={decreaseCount}>Decreament</button>
+//        </div>
+//     </>
+//   );
+// }
+
+
 
 export default App;
