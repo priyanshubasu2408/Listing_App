@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/priyanshubasu2408/Listing_App.git/static/css/main.f855e6bc.css",
+    "main.js": "/priyanshubasu2408/Listing_App.git/static/js/main.5ef9c30a.js",
+    "static/js/453.ed3810f9.chunk.js": "/priyanshubasu2408/Listing_App.git/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/priyanshubasu2408/Listing_App.git/index.html",
+    "main.f855e6bc.css.map": "/priyanshubasu2408/Listing_App.git/static/css/main.f855e6bc.css.map",
+    "main.5ef9c30a.js.map": "/priyanshubasu2408/Listing_App.git/static/js/main.5ef9c30a.js.map",
+    "453.ed3810f9.chunk.js.map": "/priyanshubasu2408/Listing_App.git/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.5ef9c30a.js"
+  ]
+}
